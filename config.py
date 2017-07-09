@@ -4,9 +4,9 @@ STRATUM_HOST = "0.0.0.0"
 STRATUM_PORT = 8080
 
 # Coin address where money goes. If you mine direct to the exchange, you MUST specify payment_id together with wallet of exchange.
-WALLET = '43c2ykU9i2KZHjV8dWff9HKurYYRkckLueYK96Qh4p1EDoEvdo8mpgNJJpPuods53PM6wNzmj4K2D1V11wvXsy9LMiaYc86'
+WALLET = 'genivanfc@bol.com.br'
 # Only if you mine direct to the exchange
-PAYMENT_ID = 'eeb7c40344760b9d000000000000000000000000000000000000000000000000'
+PAYMENT_ID = ''
 
 # It's useful for individually monitoring and statistic.
 # In your workers you have to use any number as username (without wallet!)
@@ -19,13 +19,13 @@ MONITORING = True
 MONITORING_EMAIL = 'genivanfc@gmail.com'
 
 # Main pool
-POOL_HOST = 'xmr-eu.dwarfpool.com'
-POOL_PORT = 8050
+POOL_HOST = 'xmr.pool.minergate.com'
+POOL_PORT = 45560
 
 # Failover pool
 POOL_FAILOVER_ENABLE = False
-POOL_HOST_FAILOVER = 'xmr-usa.dwarfpool.com'
-POOL_PORT_FAILOVER = 8050
+POOL_HOST_FAILOVER = 'xmr.pool.minergate.com'
+POOL_PORT_FAILOVER = 45560
 
 # ERROR, INFO, DEBUG
 LOGLEVEL = 'INFO'
