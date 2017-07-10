@@ -4,7 +4,7 @@ STRATUM_HOST = "0.0.0.0"
 STRATUM_PORT = 8080
 
 # Coin address where money goes. If you mine direct to the exchange, you MUST specify payment_id together with wallet of exchange.
-WALLET = 'genivanfc@bol.com.br'
+WALLET = '441nr69oDLxRRSJz9R4nhTZXAFsVykX84fFEQboCzSBRLxS6mMSK2ZQUYh5GT6oCNq92gwYaCymQXa4wqjmkJneFCjJDKwR'
 # Only if you mine direct to the exchange
 PAYMENT_ID = ''
 
