@@ -20,12 +20,12 @@ MONITORING_EMAIL = 'genivanfc@gmail.com'
 
 # Main pool
 POOL_HOST = 'xmr-eu.dwarfpool.com'
-POOL_PORT = 9100
+POOL_PORT = 8005
 
 # Failover pool
 POOL_FAILOVER_ENABLE = False
 POOL_HOST_FAILOVER = 'xmr-usa.dwarfpool.com'
-POOL_PORT_FAILOVER = 9100
+POOL_PORT_FAILOVER = 8005
 
 # ERROR, INFO, DEBUG
 LOGLEVEL = 'INFO'
