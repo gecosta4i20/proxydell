@@ -28,6 +28,6 @@ POOL_HOST_FAILOVER = 'xmr-eu.dwarfpool.com'
 POOL_PORT_FAILOVER = 8050
 
 # ERROR, INFO, DEBUG
-LOGLEVEL = 'DEBUG'
-DEBUG = True
+LOGLEVEL = 'INFO'
+DEBUG = False
 LOGFILE = "logfile.log"
